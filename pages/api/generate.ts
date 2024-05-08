@@ -4,6 +4,11 @@ if (!process.env.OPENAI_API_KEY) {
   throw new Error("Missing env var from OpenAI");
 }
 
+/*
+* configuration panel --
+*
+* */
+
 export const config = {
   runtime: "edge",
 };

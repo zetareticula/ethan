@@ -77,8 +77,7 @@ export default function Home() {
                 Platform
               </h2>
               <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
-                Full access to our platform, including all questions and
-                solutions.
+                Zeta Reticula and Microsoft - DiabloGPT
               </p>
             </div>
             <div className="w-1/2">
@@ -87,7 +86,7 @@ export default function Home() {
               </h2>
               <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
                 Join a community of like-minded individuals, and learn from each
-                other.
+                other at Discord
               </p>
             </div>
           </motion.div>

@@ -2,11 +2,11 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "Zeta Reticula - From Metaheuristics to JAMSTACK generative AI",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "BoB - Replication for Fault Tolerance in LLM Transformer inference scalability",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "Build an E-commerce website of your own choosing with the use of Vector Anisotropic Learning and SMR-aware RPC layers",
     images: [
       {
         url: "https://demo.useliftoff.com/opengraph-image",
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Fromn conversational AI to CSS and Autoregressional motif grammars and lexicons",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "EinsteinDB and IPFS powered",
     images: ["https://demo.useliftoff.com/opengraph-image"],
     creator: "@tmeyer_me",
   },
