@@ -1451,7 +1451,7 @@ export default function DemoPage() {
                         d="M15.25 12L9.75 8.75V15.25L15.25 12Z"
                       ></path>
                     </svg>
-                    <p className="ml-[3px] mr-[6px]">Interview Vault</p>
+                    <p className="ml-[3px] mr-[6px]">Sequential Parsers for Image Grammars</p>
                     <div className="ml-auto text-[#121217] transform">
                       <svg
                         width="24"
@@ -1749,11 +1749,11 @@ export default function DemoPage() {
                       ></path>
                     </svg>
 
-                    <p>Search</p>
+                    <p>Search </p>
                   </ul>
                 )}
                 {step === 1 &&
-                  (selected.name === "Behavioral" ? (
+                  (selected.name === "" ? (
                     <motion.ul
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -1863,15 +1863,19 @@ export default function DemoPage() {
                             <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-zinc-900/[7.5%] group-hover:ring-zinc-900/10"></div>
                             <div className="relative flex h-full flex-col overflow-hidden">
                               <div className="flex items-center text-left text-[#1a2b3b]">
-                                <p>Tell me about yourself</p>
+                                <p>
+                                  Do you enjoy a candlelit dinner at dusk or dawn? because
+                                  it could mean lemon or mango frames, adorning palatial estates, or throwback neuromancer
+
+                                </p>
                               </div>
                               <p className="text-wrap grow font-normal text-[7px]">
-                                Walk me through your resume, projects, and
-                                anything you feel is relevant to your story.
+                               All your senses are belong to us.
                               </p>
                               <div className="flex flex-row space-x-1">
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-gray-300 px-[3px] text-[7px] font-normal hover:bg-gray-50">
-                                  Product Management
+                                  Zeta Reticula uses BERT-autoencoders to build Variational decorators from speech with React, NextJS, Prisma, and TailwindCSS.
+
                                 </p>
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-[#D0E7DC] bg-[#F3FAF1] px-[3px] text-[7px] font-normal hover:bg-[#edf8ea]">
                                   <span className="mr-1 flex items-center text-emerald-600">
@@ -1911,15 +1915,14 @@ export default function DemoPage() {
                             <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-zinc-900/[7.5%] group-hover:ring-zinc-900/10"></div>
                             <div className="relative flex h-full flex-col overflow-hidden">
                               <div className="flex items-center text-left text-[#1a2b3b]">
-                                <p>What are your strengths?</p>
+                                <p>Do you prefer uniformed men or a uniformed line?</p>
                               </div>
                               <p className="text-wrap grow font-normal text-[7px]">
-                                Tell me about your strengths and why you would
-                                make a strong candidate.
+                                Lines foretell the quality of engagement when glimpsing at the edge of the DOM universe
                               </p>
                               <div className="flex flex-row space-x-1">
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-gray-300 px-[3px] text-[7px] font-normal hover:bg-gray-50">
-                                  Software Engineering
+                                  Zeta Reticula uses advanced convolutions of neural networks, transformers, and latches to facilitate a no-code experience Seq2Vec.
                                 </p>
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-[#D0E7DC] bg-[#F3FAF1] px-[3px] text-[7px] font-normal hover:bg-[#edf8ea]">
                                   <span className="mr-1 flex items-center text-emerald-600">
@@ -1959,11 +1962,10 @@ export default function DemoPage() {
                             <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-zinc-900/[7.5%] group-hover:ring-zinc-900/10"></div>
                             <div className="relative flex h-full flex-col overflow-hidden">
                               <div className="flex items-center text-left text-[#1a2b3b]">
-                                <p>What are your weaknesses?</p>
+                                <p>Sunsets by the beach or Leaving the bar at Dusk?</p>
                               </div>
                               <p className="text-wrap grow font-normal text-[7px]">
-                                Tell me about your weaknesses, and how that has
-                                impacted your previous work.
+                                With Vulkan, Zeta Reticula can render beautiful abstracts and co-locate them as you partition the browser experience for your clients
                               </p>
                               <div className="flex flex-row space-x-1">
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-gray-300 px-[3px] text-[7px] font-normal hover:bg-gray-50">
@@ -2065,15 +2067,14 @@ export default function DemoPage() {
                             <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-zinc-900/[7.5%] group-hover:ring-zinc-900/10"></div>
                             <div className="relative flex h-full flex-col overflow-hidden">
                               <div className="flex items-center text-left text-[#1a2b3b]">
-                                <p>Uber product expansion</p>
+                                <p>Semantic Pairings, The unifying theory</p>
                               </div>
                               <p className="text-wrap grow font-normal text-[7px]">
-                                Uber is looking to expand its product line and
-                                wants your take on how...
+                                EinsteinDB has worked closely with Netflix's new Gaming Platform -- Intent Mapping allows Customers to evoke and render HTML almost telepathically!
                               </p>
                               <div className="flex flex-row space-x-1">
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-gray-300 px-[3px] text-[7px] font-normal hover:bg-gray-50">
-                                  Product Management
+                                  DiabloGPT
                                 </p>
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-[#D0E7DC] bg-[#F3FAF1] px-[3px] text-[7px] font-normal hover:bg-[#edf8ea]">
                                   <span className="mr-1 flex items-center text-emerald-600">
@@ -2113,14 +2114,14 @@ export default function DemoPage() {
                             <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-zinc-900/[7.5%] group-hover:ring-zinc-900/10"></div>
                             <div className="relative flex h-full flex-col overflow-hidden">
                               <div className="flex items-center text-left text-[#1a2b3b]">
-                                <p>Weighing an Airplane</p>
+                                <p>Adversarial GNNs</p>
                               </div>
                               <p className="text-wrap grow font-normal text-[7px]">
-                                How would you weigh a plane without a scale?
+                                We train our billions of tensors with actor-critic models which issue out policy.
                               </p>
                               <div className="flex flex-row space-x-1">
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-gray-300 px-[3px] text-[7px] font-normal hover:bg-gray-50">
-                                  Brainteaser
+                                  Allow congruence between experiences as diverse as browsing an e-store from your watch, to having your grocery outing projected through your headset.
                                 </p>
                                 <p className="inline-flex items-center justify-center truncate rounded-full border-[0.5px] border-[#D0E7DC] bg-[#F3FAF1] px-[3px] text-[7px] font-normal hover:bg-[#edf8ea]">
                                   <span className="mr-1 flex items-center text-emerald-600">
