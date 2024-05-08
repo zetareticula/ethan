@@ -7,3 +7,6 @@ export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   });
   return res.end();
 }
+
+
+// Path: pages/api/hello.ts

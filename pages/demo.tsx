@@ -9,36 +9,36 @@ import { createFFmpeg, fetchFile } from "@ffmpeg/ffmpeg";
 const questions = [
   {
     id: 1,
-    name: "Behavioral",
-    description: "From LinkedIn, Amazon, Adobe",
+    name: "Celestial",
+    description: "Hot Jupiter or Freezing Europa",
     difficulty: "Easy",
   },
   {
     id: 2,
-    name: "Technical",
-    description: "From Google, Meta, and Apple",
+    name: "Lifestyle",
+    description: "A Glazed Donut or Pork Rinds",
     difficulty: "Medium",
   },
 ];
 
 const interviewers = [
   {
-    id: "John",
-    name: "John",
-    description: "Software Engineering",
-    level: "L3",
+    id: "Funky John Theme",
+    name: "Funky John Theme",
+    description: "Fuchsia Garden",
+    level: "Free",
   },
   {
-    id: "Richard",
-    name: "Richard",
-    description: "Product Management",
-    level: "L5",
+    id: "Vanilla and Chocolate",
+    name: "Vanilla and Chocolate",
+    description: "Paid Tier",
+    level: "paid",
   },
   {
-    id: "Sarah",
-    name: "Sarah",
-    description: "Other",
-    level: "L7",
+    id: "Serenading Cascade or Static",
+    name: "Serenading Cascade or Static",
+    description: "baroque",
+    level: "baroque",
   },
 ];
 
@@ -194,12 +194,12 @@ export default function DemoPage() {
 
       const question =
         selected.name === "Behavioral"
-          ? `Tell me about yourself. Why don${`’`}t you walk me through your resume?`
+          ? `Tell me about yourself. Why don${`’`}t you tell me your ideal vacation?`
           : selectedInterviewer.name === "John"
-          ? "What is a Hash Table, and what is the average case and worst case time for each of its operations?"
+          ? "Hot Jupiter or Freezing Europa?"
           : selectedInterviewer.name === "Richard"
-          ? "Uber is looking to expand its product line. Talk me through how you would approach this problem."
-          : "You have a 3-gallon jug and 5-gallon jug, how do you measure out exactly 4 gallons?";
+          ? "Which planet do you prefer, Mars or Venus?"
+          : "What is your favorite planet in the solar system?";
 
       setStatus("Transcribing");
 
@@ -236,8 +236,8 @@ export default function DemoPage() {
             results.transcript
           }. ${
             selected.name === "Behavioral"
-              ? "Please also give feedback on the candidate's communication skills. Make sure their response is structured (perhaps using the STAR or PAR frameworks)."
-              : "Please also give feedback on the candidate's communication skills. Make sure they accurately explain their thoughts in a coherent way. Make sure they stay on topic and relevant to the question."
+              ? "Fuchsia or Mango"
+              : "Which color do you prefer, Fuchsia or Mango?"
           } \n\n\ Feedback on the candidate's response:`;
 
           setGeneratedFeedback("");
@@ -301,6 +301,12 @@ export default function DemoPage() {
     }, 1000);
   };
 
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
   return (
     <AnimatePresence>
       {step === 3 ? (
@@ -385,8 +391,9 @@ export default function DemoPage() {
                     />
                   </svg>
                   <p className="text-[14px] font-normal leading-[20px] text-[#1a2b3b]">
-                    Video is not stored on our servers, and will go away as soon
-                    as you leave the page.
+                    {seconds}s
+
+
                   </p>
                 </div>
                 <Link
@@ -460,16 +467,16 @@ export default function DemoPage() {
               {recordingPermission ? (
                 <div className="w-full flex flex-col max-w-[1080px] mx-auto justify-center">
                   <h2 className="text-2xl font-semibold text-left text-[#1D2B3A] mb-2">
-                    {selected.name === "Behavioral"
-                      ? `Tell me about yourself. Why don${`’`}t you walk me through your resume?`
-                      : selectedInterviewer.name === "John"
-                      ? "What is a Hash Table, and what is the average case and worst case time for each of its operations?"
-                      : selectedInterviewer.name === "Richard"
-                      ? "Uber is looking to expand its product line. Talk me through how you would approach this problem."
-                      : "You have a 3-gallon jug and 5-gallon jug, how do you measure out exactly 4 gallons?"}
+                    {selected.name === "Behavioral"  ? "Behavioral" : "Technical"
+
+
+
+
+
+                    }
                   </h2>
                   <span className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal mb-4">
-                    Asked by top companies like Google, Facebook and more
+                   Zeta Reticula's No-Code Rendering Factory and Platform
                   </span>
                   <motion.div
                     initial={{ y: -20 }}
@@ -793,7 +800,7 @@ export default function DemoPage() {
                           ></path>
                         </svg>
                       </span>
-                      Star on Github
+                        Star on Github
                     </Link>
                   </div>
                 </div>
@@ -1046,8 +1053,7 @@ export default function DemoPage() {
                     And an interviewer
                   </h2>
                   <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal my-4">
-                    Choose whoever makes you feel comfortable. You can always
-                    try again with another one.
+                   Choose from pedestrian sorcery to inviting mood lighting through dialectic
                   </p>
                   <div>
                     <RadioGroup
@@ -1055,7 +1061,7 @@ export default function DemoPage() {
                       onChange={setSelectedInterviewer}
                     >
                       <RadioGroup.Label className="sr-only">
-                        Server size
+                        Zeta Reticula calls upon NextJS, Vue, and renders a DOM gallery of DOMs befitting.
                       </RadioGroup.Label>
                       <div className="space-y-4">
                         {interviewers.map((interviewer) => (
@@ -1638,10 +1644,9 @@ export default function DemoPage() {
 
                     <ul className="mt-[28px] flex">
                       <li className="list-none max-w-[400px]">
-                        Search through all of the questions in the question
-                        bank. If you don{`'`}t see one you{`'`}re looking for,
-                        you can always add it in your the {`"`}My Questions{`"`}{" "}
-                        section.
+                        Take your e-commerce experience to the fourth dimension.  You won{`'`}t be disappointed with Zeta Reticula's CRM, ORM, and CMS.
+                        </li>
+                        <li className="list-none max-w-[400px]">
                       </li>
                     </ul>
                   </div>
@@ -1656,26 +1661,26 @@ export default function DemoPage() {
                       className="text-[#1a2b3b] text-[14px] leading-[18px] font-semibold absolute"
                     >
                       {selected.name === "Behavioral"
-                        ? "Tell me about yourself"
-                        : selectedInterviewer.name === "John"
-                        ? "What is a Hash Table, and what is the average case for each of its operations?"
-                        : selectedInterviewer.name === "Richard"
-                        ? "Uber is looking to expand its product line. How would you go about doing this?"
-                        : "You have a 3-gallon jug and 5-gallon jug, how do you measure out exactly 4 gallons?"}
+                        ? "Which describes you best, gone fishing or early retirement?"
+                        : selectedInterviewer.name === "Fuchsia"
+                        ? "Pacific Coast or West Coast?"
+                        : selectedInterviewer.name === "Brittle"
+                        ? "Salami sandwich or peanut butter and jelly sandwich?"
+                        : "What is your favorite color?"}
                     </motion.span>
 
                     <ul className="mt-[28px] flex">
                       {selected.name === "Behavioral" ? (
                         <li className="list-none max-w-[400px]">
-                          Start off by walking me through your resume. Perhaps
-                          begin with your internships in college and move to
-                          more recent projects.
+                          Zeta Reticula uses BERT encoders to provide the best
+                            experience for your customers. We use the renderings parsed from
+                          lexical analysis to provide an esoteric template for your simulations.
                         </li>
                       ) : (
                         <li className="list-none max-w-[400px]">
-                          Start off by explaining what the function does, and
-                          its time and space complexities. Then go into how you
-                          would optimize it.
+                          Unity3D and Zeta Reticula are the perfect combination for
+                            your next project. We use the latest in machine learning to
+                            provide the best experience for your customers with EinsteinDB and MilevaDB as its backend.
                         </li>
                       )}
                     </ul>
